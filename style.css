@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "Hero regular";
+    src: url(fonts/Hero\ New\ Regular.woff);
+}
+
+@font-face {
+    font-family: "Hero bold";
+    src: url(fonts/Hero\ New\ Super.woff);
+}
+
+@font-face {
+    font-family: "Hero italic";
+    src: url(fonts/Hero\ New\ Light\ Italic.woff);
+}
+
+body {
+    font-family: "Hero regular", sans-serif;
+    margin: 0px;
+    height: 100vh;
+}
+
+.header{
+    /*position: fixed;*/
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.header h3{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header ul {
+    display: flex;
+    gap: 18px;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+
+.section-1 {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    padding: 150px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.section-1 button {
+    background-color: #3882F6;
+    font-family: "Hero regular", sans-serif;
+    border-style: none;
+    padding: 10px 36px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+.section-1 .right {
+    max-width: 40%;
+    height: auto;
+}
+
+.section-1 .left {
+    max-width: 30%;
+
+}
+.section-1 h1{
+    font-family: "Hero bold", sans-serif;
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section-1 p {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 16px 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.section-2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.section-2 h2 {
+    font-family: "Hero bold", sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 80px;
+    margin-top: 0px;
+}
+
+.section-2 .memes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.section-2 .memes div {
+    max-width: 50%;
+    max-height: 50%;
+    text-align: center;
+}
+
+.section-2 .memes img {
+    width: 300px;
+    height: 200px;
+}
+
+
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+#quote {
+    font-family: "Hero italic", sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    max-width: 74%;
+}
+
+#quote-author {
+    font-family: "Hero bold", sans-serif;
+    color: #1F2937;
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+
+.section-4 {
+    background-color: whitesmoke;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#blue-div {
+    background-color: #3882F6;
+    padding: 89px 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+#blue-div button {
+    background-color: #3882F6;
+    font-family: "Hero regular", sans-serif;
+    padding: 10px 49px;
+    border-radius: 10px;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#blue-div #title {
+    color: #E5E7EB;
+    font-family: "Hero bold", sans-serif;
+    font-size: 26px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+
+#blue-div #text {
+    color: #E5E7EB;
+    margin-top: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
